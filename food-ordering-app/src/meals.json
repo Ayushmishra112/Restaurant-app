@@ -1,0 +1,448 @@
+{
+  "labels": [
+    { "id": "pork", "label": "Pork" },
+    { "id": "seafood", "label": "Seafood" },
+    { "id": "kids", "label": "Kids" },
+    { "id": "chicken", "label": "Chicken" },
+    { "id": "beef", "label": "Beef" },
+    { "id": "vegetarian", "label": "Vegetarian" },
+    { "id": "breakfast", "label": "Breakfast" }
+  ],
+  "meals": [
+    {
+      "id": "meal1",
+      "title": "Chicken Tikka Masala",
+      "starter": "This is a delicious Chicken Tikka Masala made with marinated chicken pieces, cooked in a creamy tomato sauce, and seasoned with aromatic spices.",
+      "desert": "Cake",
+      "price": 9.99,
+      "labels": ["chicken", "breakfast"],
+      "img": "https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Tikka-Masala-min-750x750.jpg",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Lassi",
+          "price": 4.99,
+          "img": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Sasmita/Sweet_and_Spicy_Mint_Pudina_Lassi_Recipe_Buttermilk-2.jpg"
+        },
+        {
+          "id": "drink-2",
+          "title": "Chaas",
+          "price": 5.99,
+          "img": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/04/masala-chaas-recipe.jpg"
+        },
+        {
+          "id": "drink-3",
+          "title": "Ganne ka ras",
+          "price": 6.99,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7UP2OL4XAIiLsfAwSsS5d9rLGPfSLxmd7og&s"
+        }
+      ]
+    },
+    {
+      "id": "meal2",
+      "title": "Veg Spring Roll",
+      "starter": "This is a delicious Veg Spring Roll filled with fresh vegetables and served with a dipping sauce.",
+      "desert": "Cake",
+      "price": 19.99,
+      "labels": ["vegetarian"],
+      "img": "https://vegecravings.com/wp-content/uploads/2016/09/spring-roll-recipe-step-by-step-instructions-1024x822.jpg.webp",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Wine",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1633158829-fac3d4d8f2f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Orange Juice",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Beer",
+          "price": 6.99,
+          "img": "https://images.unsplash.com/photo-1619710109724-d7b5e77e9d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    {
+      "id": "meal3",
+      "title": "Pad Thai",
+      "starter": "This is a classic Pad Thai dish made with stir-fried rice noodles, tofu, shrimp, and a tangy sauce.",
+      "desert": "Cake",
+      "price": 79.99,
+      "labels": ["seafood"],
+      "img": "https://www.recipetineats.com/wp-content/uploads/2019/02/Pad-Thai_5.jpg",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Wine",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1633158829-fac3d4d8f2f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Mango Juice",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Thai Iced Tea",
+          "price": 6.99,
+          "img": "https://www.themoviedb.org/t/p/original/aCmCYBCIXZcMJnvwVbVnpKhVwGm.jpg"
+        }
+      ]
+    },
+    {
+      "id": "meal4",
+      "title": "3 Course Seafood Platter",
+      "starter": "This is a delicious 3 course seafood platter featuring a variety of fresh seafood dishes.",
+      "desert": "Cake",
+      "price": 49.99,
+      "labels": ["seafood"],
+      "img": "https://images.unsplash.com/photo-1565299644748-b416c2c4e1b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "White Wine",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1633158829-fac3d4d8f2f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Pineapple Juice",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Coconut Water",
+          "price": 6.99,
+          "img": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    {
+      "id": "meal5",
+      "title": "3 Course Pork Platter",
+      "starter": "This is a delicious 3 course pork platter featuring a variety of pork dishes.",
+      "desert": "Cake",
+      "price": 39.99,
+      "labels": ["pork"],
+      "img": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Red Wine",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1633158829-fac3d4d8f2f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Apple Juice",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Soda",
+          "price": 6.99,
+          "img": "https://images.unsplash.com/photo-1589118949245-7d38baf380d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    {
+      "id": "meal6",
+      "title": "Beef Steak",
+      "starter": "A succulent beef steak grilled to perfection, served with roasted vegetables and mashed potatoes.",
+      "desert": "Cake",
+      "price": 29.99,
+      "labels": ["beef"],
+      "img": "https://images.unsplash.com/photo-1590116511330-b392fcc52ff3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Red Wine",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1633158829-fac3d4d8f2f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Apple Juice",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Soda",
+          "price": 6.99,
+          "img": "https://images.unsplash.com/photo-1589118949245-7d38baf380d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    {
+      "id": "meal7",
+      "title": "Vegetable Biryani",
+      "starter": "Aromatic basmati rice cooked with mixed vegetables, herbs, and spices, served with raita.",
+      "desert": "Cake",
+      "price": 24.99,
+      "labels": ["vegetarian"],
+      "img": "https://images.unsplash.com/photo-1578922477164-57eaa3d0fe2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Mango Lassi",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1598268247672-b732ca690d5e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Sweet Lassi",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1598268256106-d76f0824ef78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Iced Tea",
+          "price": 6.99,
+          "img": "https://images.unsplash.com/photo-1560343099-ef3a87abf416?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    {
+      "id": "meal8",
+      "title": "Margarita Pizza",
+      "starter": "Classic Italian pizza topped with fresh mozzarella, basil leaves, and a tangy tomato sauce.",
+      "desert": "Cake",
+      "price": 14.99,
+      "labels": ["vegetarian"],
+      "img": "https://images.unsplash.com/photo-1566842856910-7e3866e3d32c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Beer",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1593999199942-92c7f2b5b9b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Coke",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1594731685071-00a31a1fcaae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Mojito",
+          "price": 6.99,
+          "img": "https://images.unsplash.com/photo-1587754850265-c08a516f9219?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    {
+      "id": "meal9",
+      "title": "Sushi Platter",
+      "starter": "Assorted sushi rolls including tuna, salmon, and avocado, served with pickled ginger and wasabi.",
+      "desert": "Cake",
+      "price": 34.99,
+      "labels": ["seafood"],
+      "img": "https://images.unsplash.com/photo-1579523315709-9e39622cd5f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Sake",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1579704418045-250454f7ae31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Green Tea",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1534762115738-8fe9b4e04989?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Plum Wine",
+          "price": 6.99,
+          "img": "https://images.unsplash.com/photo-1599372669420-7aa64b5e1f71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    {
+      "id": "meal10",
+      "title": "Paneer Butter Masala",
+      "starter": "Soft cubes of paneer cooked in a rich tomato and cashew nut gravy, flavored with butter and cream.",
+      "desert": "Cake",
+      "price": 19.99,
+      "labels": ["vegetarian"],
+      "img": "https://images.unsplash.com/photo-1603729815684-8c87b2d7be9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Mango Lassi",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1598268247672-b732ca690d5e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Sweet Lassi",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1598268256106-d76f0824ef78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Iced Tea",
+          "price": 6.99,
+          "img": "https://images.unsplash.com/photo-1560343099-ef3a87abf416?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    {
+      "id": "meal11",
+      "title": "Margherita Pizza",
+      "starter": "A classic Italian pizza topped with fresh tomatoes, mozzarella cheese, and basil leaves.",
+      "desert": "Cake",
+      "price": 14.99,
+      "labels": ["vegetarian"],
+      "img": "https://images.unsplash.com/photo-1566842856910-7e3866e3d32c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Beer",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1593999199942-92c7f2b5b9b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Coke",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1594731685071-00a31a1fcaae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Mojito",
+          "price": 6.99,
+          "img": "https://images.unsplash.com/photo-1587754850265-c08a516f9219?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    {
+      "id": "meal12",
+      "title": "Chicken Biryani",
+      "starter": "Aromatic basmati rice cooked with tender pieces of chicken, herbs, and spices, served with raita.",
+      "desert": "Cake",
+      "price": 24.99,
+      "labels": ["chicken"],
+      "img": "https://images.unsplash.com/photo-1550387536-02e2d0c708a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Mango Lassi",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1598268247672-b732ca690d5e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Sweet Lassi",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1598268256106-d76f0824ef78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Iced Tea",
+          "price": 6.99,
+          "img": "https://images.unsplash.com/photo-1560343099-ef3a87abf416?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    {
+      "id": "meal13",
+      "title": "Pasta Carbonara",
+      "starter": "Spaghetti pasta tossed in a creamy egg and Parmesan cheese sauce with crispy bacon bits.",
+      "desert": "Cake",
+      "price": 19.99,
+      "labels": ["pork"],
+      "img": "https://images.unsplash.com/photo-1565299629224-7c46b6a6a3e1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "White Wine",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1633158829-fac3d4d8f2f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Apple Juice",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Soda",
+          "price": 6.99,
+          "img": "https://images.unsplash.com/photo-1589118949245-7d38baf380d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    {
+      "id": "meal14",
+      "title": "Falafel Platter",
+      "starter": "Crispy falafel patties served with hummus, tabbouleh, and tahini sauce.",
+      "desert": "Cake",
+      "price": 16.99,
+      "labels": ["vegetarian"],
+      "img": "https://images.unsplash.com/photo-1605299300022-cbae47b33a3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Pomegranate Juice",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1619910668054-02e53ffaffa7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Turkish Tea",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1611188558350-c7b6b3aeeb22?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Mint Lemonade",
+          "price": 6.99,
+          "img": "https://images.unsplash.com/photo-1597311950580-36c9de442813?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    {
+      "id": "meal15",
+      "title": "Chicken Caesar Salad",
+      "starter": "Crisp romaine lettuce tossed with grilled chicken breast, Parmesan cheese, and Caesar dressing.",
+      "desert": "Cake",
+      "price": 18.99,
+      "labels": ["salad"],
+      "img": "https://images.unsplash.com/photo-1599066290171-16c0d62275a7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Lemonade",
+          "price": 4.99,
+          "img": "https://images.unsplash.com/photo-1595562004993-7ac937177be5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-2",
+          "title": "Watermelon Juice",
+          "price": 5.99,
+          "img": "https://images.unsplash.com/photo-1590056492433-2b3b0f9e1f99?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": "drink-3",
+          "title": "Iced Tea",
+          "price": 6.99,
+          "img": "https://images.unsplash.com/photo-1560343099-ef3a87abf416?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    }
+  ]
+}

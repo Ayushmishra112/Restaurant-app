@@ -1,0 +1,36 @@
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .animate-typing {
+    animation: typing 8s steps(20) infinite;
+  }
+  
+  .animate-gradient {
+    animation: gradient 15s ease infinite;
+  }
+  
+  .animate-delay-2 {
+    animation-delay: 8s;
+    animation: typing 8s steps(20) infinite;
+  }
