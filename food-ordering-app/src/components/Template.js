@@ -1,31 +1,31 @@
 import React, { useState, useEffect, useContext } from "react";
 import { OrderContext } from "./OrderContext";
 import toast from "react-hot-toast";
+import TopChoices from './TopChoices';
 
-const Template = () => {
+const Template = ({ selectedChoice }) => {
   const [meals, setMeals] = useState([]);
   const [labels, setLabels] = useState([]);
   const { addOrder, addDrinkOrder } = useContext(OrderContext);
   const [selectedDrinks, setSelectedDrinks] = useState({});
   const [currentPage, setCurrentPage] = useState(1);
-  const [imagesLoaded, setImagesLoaded] = useState(false); // State to track image loading
+  const [imagesLoaded, setImagesLoaded] = useState(false);
   const mealsPerPage = 3;
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const mealsResponse = await fetch("http://localhost:8000/api/meals");
+        const mealsResponse = await fetch("https://backend-kyst.onrender.com/api/meals");
         const mealsData = await mealsResponse.json();
         setMeals(mealsData);
 
-        const tagsResponse = await fetch("http://localhost:8000/api/tags");
+        const tagsResponse = await fetch("https://backend-kyst.onrender.com/api/tags");
         const tagsData = await tagsResponse.json();
         setLabels(tagsData);
 
-        // Simulate image loading with a delay
         setTimeout(() => {
           setImagesLoaded(true);
-        }, 2000); // Adjust delay time as needed
+        }, 2000);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -51,13 +51,16 @@ const Template = () => {
     }
   };
 
-  // Pagination logic
+  const filteredMeals = selectedChoice === 'All'
+    ? meals
+    : meals.filter(meal => meal.labels.includes(selectedChoice.toLowerCase()));
+
   const indexOfLastMeal = currentPage * mealsPerPage;
   const indexOfFirstMeal = indexOfLastMeal - mealsPerPage;
-  const currentMeals = meals.slice(indexOfFirstMeal, indexOfLastMeal);
+  const currentMeals = filteredMeals.slice(indexOfFirstMeal, indexOfLastMeal);
 
   const handleNextPage = () => {
-    if (indexOfLastMeal >= meals.length) {
+    if (indexOfLastMeal >= filteredMeals.length) {
       toast.error("No more meals to display.");
     } else {
       setCurrentPage((prevPage) => prevPage + 1);
