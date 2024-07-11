@@ -5,10 +5,10 @@ import './animations.css';
 const Home = () => {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
+      
       <section className="relative h-screen flex items-center justify-center text-white">
         <div className="absolute inset-0 z-[-1]">
-          {/* Transitioning Background Image */}
+         
           <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 opacity-50 animate-gradient"></div>
           <img
             src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
@@ -28,7 +28,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* About Section */}
+      
       <section className="py-16 px-4 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8 text-white">About Us</h2>
@@ -49,7 +49,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
+     
       <section className="py-16 px-4 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
         <div className="max-w-6xl mx-auto text-gray-900">
           <h2 className="text-3xl font-bold text-center mb-8 text-white">Contact Us</h2>

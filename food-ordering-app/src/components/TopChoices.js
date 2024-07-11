@@ -25,7 +25,7 @@ const TopChoices = ({ choice, onSelectChoice }) => {
       <div className="flex mt-3 mb-1 flex-wrap gap-3 space-x-6">
         {labels.map((item) => (
           <button
-            key={item._id} // Use a unique identifier as the key
+            key={item._id} 
             onClick={() => onSelectChoice(item.label)}
             className="border border-slate-500 text-black items-center my-1 px-6 py-2 rounded-3xl shadow-md duration-300 hover:bg-red-500 hover:text-white hover:border-opacity-0 hover:cursor-pointer"
           >

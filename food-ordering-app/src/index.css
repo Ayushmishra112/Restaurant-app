@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 .list-image {
-    background-image: url('./assets/checkmark.jpg'); /* Make sure this path is correct */
+    background-image: url('./assets/checkmark.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    padding-left: 20px; /* Adjust padding for the background image */
+    padding-left: 20px; 
   }

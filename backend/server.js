@@ -5,7 +5,7 @@ require('dotenv').config();
 const app = express();
 const port = 8000;
 
-// Replace with your MongoDB URI
+
 const uri = process.env.MONGODB_URI;
 const client = new MongoClient(uri);
 
@@ -37,14 +37,14 @@ app.get('/api/tags', async (req, res) => {
   }
 });
 
-// API endpoint to handle order submission
+
 app.post('/api/orders', async (req, res) => {
     const { customerName, total, mealOrders, drinkOrders } = req.body;
   
     try {
       const ordersCollection = req.db.collection('orders');
   
-      // Create a new order document
+     
       const newOrder = {
         customerName,
         total,
@@ -53,7 +53,7 @@ app.post('/api/orders', async (req, res) => {
         createdAt: new Date()
       };
   
-      // Insert the new order into MongoDB
+      
       const result = await ordersCollection.insertOne(newOrder);
   
       res.status(201).json({ message: "Order placed successfully", orderId: result.insertedId });

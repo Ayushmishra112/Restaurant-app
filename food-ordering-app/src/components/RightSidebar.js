@@ -37,19 +37,19 @@ const RightSidebar = () => {
       drinkOrders: [...drinkOrders],
     };
     setStoredOrders((prevOrders) => [...prevOrders, newOrder]);
-    // Clear current orders and reset state
+   
     setCustomerName("");
-    // Clear orders context
+    
     clearOrders();
-    // Automatically hide orders after 5 seconds
+   
     setTimeout(() => {
       setShowOrders(false);
-    }, 3000); // 5000 milliseconds = 5 seconds
+    }, 3000); 
   };
 
   const handleOrdersButtonClick = () => {
     setShowOrders(!showOrders);
-    // Clear previous timer if orders are manually shown
+   
     clearTimeout();
   };
 

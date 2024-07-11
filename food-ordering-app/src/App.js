@@ -4,7 +4,7 @@ import { OrderProvider } from "./components/OrderContext";
 import LeftSidebar from "./components/LeftSidebar";
 import Feed from "./components/Feed";
 import { Toaster } from "react-hot-toast";
-import Home from "./components/Home"; // Import your Home component
+import Home from "./components/Home"; 
 
 function App() {
   const [choice, setChoice] = useState('Dine-in');
